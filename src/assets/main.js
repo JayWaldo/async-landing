@@ -13,6 +13,7 @@ const options = {
 async function fetchData(urlApi) {
   const response = await fetch(urlApi, options);
   const data = await response.json();
+  console.log(data);
   return data;
 }
 
