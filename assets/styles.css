@@ -1,0 +1,41 @@
+.navItems {
+  display: flex;
+  gap: 40px;
+}
+.navItems a:hover {
+  transition: 0.5s;
+  color: aliceblue;
+  text-decoration: underline solid 2px aliceblue;
+}
+.head-block {
+  background-color: #0a0a11;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.main-container {
+  background-color: #0a0a11;
+}
+.name {
+  color: aliceblue;
+}
+.titles {
+  font-size: 1rem;
+  color: aliceblue;
+}
+.title-vids {
+  color: #e2ddcc;
+}
+.handle {
+  color: #492444;
+}
+.bg {
+  background-color: #191926;
+}
+.footer {
+  background-color: #0a0a11;
+}
+.footer h2 {
+  color: aliceblue;
+}
+.keep {
+  color: #492444;
+}
