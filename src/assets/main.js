@@ -13,7 +13,6 @@ const options = {
 async function fetchData(urlApi) {
   const response = await fetch(urlApi, options);
   const data = await response.json();
-  console.log(data);
   return data;
 }
 
@@ -25,7 +24,7 @@ async function fetchData(urlApi) {
         <div class="group relative">
           <div
             class="w-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
-            <img src="${video.snippet.thumbnails.high.url}" alt="${video.snippet.description}" class="w-full">
+            <img src="${video.snippet.thumbnails.high.url}" alt="${video.snippet.description}" class="w-full"><a target="blank" src= "https://www.youtube.com/watch?v=${videos.items.id.videoId></a>
           </div>
           <div class="mt-4 flex justify-between">
             <h3 class="text-sm text-aliceblue titles">
