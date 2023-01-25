@@ -17,6 +17,12 @@
 .name {
   color: aliceblue;
 }
+a {
+  display: block;
+}
+a:hover {
+  cursor: pointer;
+}
 .titles {
   font-size: 1rem;
   color: aliceblue;
